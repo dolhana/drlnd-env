@@ -1,0 +1,24 @@
+name: drlnd
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pytorch
+  - torchvision
+  - tensorflow
+  - cuda92
+  - jupyter
+  - notebook
+  - Pillow
+  - matplotlib
+  - pytest
+  - docopt
+  - pyyaml
+  - pandas
+  - scipy
+  - ipykernel
+  - pip:
+      - gym
+      - ./python
