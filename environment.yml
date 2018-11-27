@@ -6,7 +6,6 @@ channels:
 dependencies:
   - python=3.6
   - pytorch
-  - torchvision
   - tensorflow
   - cuda92
   - jupyter
@@ -19,6 +18,8 @@ dependencies:
   - pandas
   - scipy
   - ipykernel
+  - tqdm
   - pip:
       - gym
+      - torchvision
       - ./python
