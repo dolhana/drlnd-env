@@ -11,6 +11,7 @@ dependencies:
   - jupyter
   - notebook
   - Pillow
+  - PyOpenGL
   - matplotlib
   - pytest
   - docopt
@@ -19,7 +20,10 @@ dependencies:
   - scipy
   - ipykernel
   - tqdm
+  - pylint
   - pip:
-      - gym
+      - gym[atari]
+      - git+https://github.com/Kojoley/atari-py.git
       - torchvision
       - ./python
+      - jupyter-http-over-ws
