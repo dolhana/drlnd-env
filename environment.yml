@@ -13,6 +13,7 @@ dependencies:
   - Pillow
   - PyOpenGL
   - matplotlib
+  - seaborn
   - pytest
   - docopt
   - pyyaml
@@ -23,7 +24,7 @@ dependencies:
   - pylint
   - pip:
       - gym[atari]
-      - git+https://github.com/Kojoley/atari-py.git
+      #- git+https://github.com/Kojoley/atari-py.git
       - torchvision
       - ./python
       - jupyter-http-over-ws
